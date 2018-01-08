@@ -1,0 +1,26 @@
+{
+    "nodes":[
+        {"name": "社員番号", "group": 1},
+        {"name": "氏名", "group": 1},
+        {"name": "契約", "group": 1},
+        {"name": "住所", "group": 1},
+        {"name": "電話番号", "group": 1},
+        {"name": "所属", "group": 1},
+        {"name": "出向先", "group": 1},
+        {"name": "受注番号", "group": 2},
+        {"name": "製品", "group": 2},
+        {"name": "顧客", "group": 2}
+    ],
+    "links":[
+        {"source": 0, "target": 5},
+        {"source": 1, "target": 7},
+        {"source": 2, "target": 8},
+        {"source": 3, "target": 7},
+        {"source": 4, "target": 9},
+        {"source": 5, "target": 2},
+        {"source": 6, "target": 4},
+        {"source": 7, "target": 1},
+        {"source": 8, "target": 4},
+        {"source": 9, "target": 0}
+    ]
+}
